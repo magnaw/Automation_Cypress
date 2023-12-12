@@ -16,7 +16,7 @@ describe('Updating profil information', () => {
     })
   });
 
-  console.log("*****Verification*****")
+
   it('Verification', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/');
     ln.verifylogin();
